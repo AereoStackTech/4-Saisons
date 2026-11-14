@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-saffron-bronze: #9A5B13;
+  --color-saffron-bronze-dark: #7A460B;
+  --color-golden-warqa: #D99B26;
+  --color-atlantic-ink: #102A43;
+  --color-atlantic-ink-deep: #0B1F33;
+  --color-ivory-silk: #FCF9F2;
+  --color-parchment: #F4EDE0;
+  --color-espresso-ink: #24190F;
+  --color-muted-umber: #615243;
+  --color-whatsapp: #1F9D55;
+  --color-whatsapp-hover: #187D43;
+
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-jakarta), system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-ivory-silk);
+    color: var(--color-espresso-ink);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-ivory-silk);
+    color: var(--color-espresso-ink);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}

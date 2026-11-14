@@ -1,0 +1,6 @@
+{
+  "name": "Pastillasafi — Maison de la Pastilla à Safi",
+  "description": "Spécialiste de la Pastilla traditionnelle et aux fruits de mer à Safi (Rue 187). Configurateur de plateaux et pré-commande directe sur WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
